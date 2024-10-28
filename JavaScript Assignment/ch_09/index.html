@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ch_9</title>
+</head>
+<body>
+    FirstName: <input type="text" id="firstname"> 
+    LastName: <input type="text" id="lastname">
+    Age: <input type="number" id="age">
+    <br>
+    <button id="btn">Alert</button>
+
+    <script type="text/javascript">
+        var firstName = '';
+        var lastName = '';
+        var age = 0;
+
+        document.getElementById('btn').onclick = function () {
+            firstName = document.getElementById('firstname').value;
+            lastName = document.getElementById('lastname').value;
+            age = document.getElementById('age').value;
+
+        alert(`Hello ${firstName} ${lastName}, you are ${age} years old!`);
+        }
+    </script>
+</body>
+</html>
