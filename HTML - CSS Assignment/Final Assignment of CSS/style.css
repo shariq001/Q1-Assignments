@@ -1,0 +1,355 @@
+* {
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+body {
+    font-family: calibri;
+}
+header {
+    display: flex; justify-content: space-between; padding: 10px;
+}
+header h1 {
+    line-height: 0.73; font-weight: 900; font-family: "Bebas Neue", sans-serif; font-weight: 900;   
+}
+.pana {
+    color: rgb(19, 187, 41); font-size: 39.5px;
+}
+.head-ul {
+    display: flex; justify-content: space-between; list-style: none; gap: 40px; margin-top: 15px; font-weight: bold; padding-right: 20px;
+}
+.head-li a{
+    text-decoration: none; color: black;
+}
+.head-li a:hover {
+    border-bottom: 3px solid rgb(231, 160, 5);
+}
+
+/* Home Body */
+
+#home-body {
+    background: rgb(132, 201, 29); width: auto; height: 500px; 
+}
+#home-h1 {
+    color: white; font-size: 70px; padding-top: 200px; text-align: center;
+}
+#home-p1 {
+    color: white; text-align: center;
+}
+.home-btn {
+    padding: 5px 10px 5px 10px; border-radius: 5px; border: none; background: orange; font-weight: bold; margin: auto; display: block; margin-top: 30px; box-shadow: 0 3px rgb(209, 137, 3);
+}
+.home-btn:hover {
+    border-radius: 10px 50px; transition: 0.4s ease-in-out; cursor: pointer;
+}
+.home-btn a{
+    text-decoration: none; color: black;
+}
+
+/* Why Us */
+
+#whyus-body {
+    width: auto; height: 400px; 
+}
+.main-h1 {
+    text-align: center; font-size: 50px; padding-top: 50px;
+}
+#adv {
+    color: rgb(132, 201, 29); 
+}
+#whyus-p1 {
+    text-align: center;
+}
+
+.icons-div {
+    display: flex; justify-content: space-between; text-align: center;  margin: 30px 15px 0 15px;
+}
+.icon-img {
+    width: 80px; height: 80px; background: rgb(226, 218, 218); padding: 15px; border-radius: 50px;
+}
+
+#whyus {
+    border-bottom: 3px solid rgb(231, 160, 5);
+}
+
+/* About Us */
+
+#about {
+    border-bottom: 3px solid rgb(231, 160, 5);
+}
+.us {
+    color: rgb(132, 201, 29);
+}
+#about-content-main {
+    display: flex; justify-content: space-between; padding: 30px;
+}
+#about-content-para {
+     margin: 20px;
+}
+#about-img1 {
+    width: 500px; height: 380px;
+}
+
+/* Our Services */
+#service {
+    border-bottom: 3px solid rgb(231, 160, 5);
+}
+#services-p1 {
+    text-align: center;
+}
+.services-icon-img {
+    background: #fdde87; 
+}
+.services-icon {
+    background: #f0eded; padding: 15px;
+}
+.icon-a {
+    color: rgb(132, 201, 29);
+}
+
+/* Portfolio Page */
+
+#portfolio {
+    border-bottom: 3px solid rgb(231, 160, 5);
+}
+#our-portfolio {
+    background: black; color: white; padding: 15px;
+}
+.logos {
+    width: 150px; height: 150px;
+}
+.logo-container {
+    padding: 15px;
+}
+.logo-section {
+    display: flex; justify-content: center; 
+}
+#portfolio-ul {
+    display: flex; justify-content: space-between; list-style: none; margin: 0 180px 0 180px; 
+}
+#logo-li {
+    color: orangered;
+}
+
+/* Process Page */
+
+#process-li {
+    border-bottom: 3px solid rgb(231, 160, 5);
+}
+.process-icon-img {
+    width: 70px; height: 70px; padding: 15px; border-radius: 50%; border: 1px solid rgb(179, 179, 179);
+}
+
+/* Reviews Page */
+#reviews-li {
+    border-bottom: 3px solid rgb(231, 160, 5);
+}
+.reviews-content {
+    display: flex; justify-content: space-between; gap: 15px;
+}
+.reviews-container {
+    display: flex; justify-content: space-between; gap: 30px; margin: 30px;
+}
+
+/* Skills Page */
+#skills {
+    padding: 15px;
+}
+#skills-li {
+    border-bottom: 3px solid rgb(231, 160, 5);
+}
+.skills-icons-div {
+    margin: 30px; justify-content: center; gap: 50px;
+}
+
+#new-project-skills {
+    background: rgb(132, 201, 29); color: white; text-align: center; padding: 15px;
+}
+#skills-main-h1 {
+    text-align: center; font-size: 50px; padding: 15px;
+}
+.skills-input {
+    border: none; margin: 15px; padding: 10px; 
+}
+.skills {
+    width: 80px; height: 80px; padding: 15px; border-radius: 50%; border: 1px solid rgb(179, 179, 179);
+}
+
+/* Contact us page */
+
+#contacts-li {
+    border-bottom: 3px solid rgb(231, 160, 5);
+}
+.contact-div1 {
+    display: flex; justify-content: center; gap: 10px;
+}
+.contact-div1 i {
+    color: rgb(132, 201, 29);
+}
+#contact-div2 {
+    display: flex; justify-content: center; gap: 15px;
+}
+#contacts-img {
+    width: 1200px; height: 400px;
+}
+
+/* footer contacts */
+
+#contact-footer {
+    background: rgb(132, 201, 29); color: white; padding: 20px 50px 20px 50px;
+}
+#footer-h1{
+    line-height: 0.73; font-weight: 900; font-family: "Bebas Neue", sans-serif; font-weight: 900;
+}
+#footer-pana {
+    color:white; line-height: 0.73; font-weight: 900; font-family: "Bebas Neue", sans-serif; font-weight: 900;
+}
+#footer-cloud {
+    color: black;line-height: 0.73; font-weight: 900; font-family: "Bebas Neue", sans-serif; font-weight: 900;
+}
+.footer-container {
+    display: flex; justify-content: center; text-align: center; gap: 50px;
+}
+.footer-div1 {
+    text-align: left;
+}
+.footer-div2 {
+    display: flex; justify-content: center; gap: 20px;
+}
+.footer-div2-sub ul li a {
+    color: white; text-decoration: none;
+}
+.footer-div2-sub ul li {
+    list-style: none; 
+}
+.footer-border-bottom ul li {
+    border-bottom: 2px solid white;
+}
+#contacts-phone {
+    color: white;
+}
+#contacts-phone2 {
+    color: white;
+}
+#contacts-envelope {
+    color: white;
+}
+#contacts-ul-2 {
+    display: flex; justify-content: center; gap: 8px;
+}
+
+
+/* Media Query */
+
+@media (max-width: 786px) {
+    /* Header Section */
+    header h1 {
+        font-size: 20px;
+    }
+    .pana {
+        font-size: 24.5px;
+    }
+    .nav ul {
+        flex-wrap: wrap; justify-content: space-between; gap: 10px; margin: 0 20px;
+    }
+
+    /* Home Page */
+    #home-body {
+        display: flex; flex-direction: column; padding: 10px;
+    }
+    .home-btn {
+        margin: 10px 120px; 
+    }
+    .main-h1 {
+        padding-top: 50px;
+    }
+    #home-h1 {
+        padding-top: 100px;
+    }
+    #homebtn {
+        margin: 10px 160px;
+    }
+
+    /* Why us */
+
+    #whyus-body {
+        display: flex; flex-direction: column; 
+    }
+    #whyus-icons-div {
+        display: flex; flex-direction: column;
+    }
+    #whyus-icons-div div {
+        margin: 10px;
+    }
+    #whyus-btn {
+        margin: 10px 170px; 
+    }
+
+    /* About us */
+
+    #about-content-main {
+        display: flex; flex-direction: column;
+    }
+    #about-img1 {
+        width: 400px;
+    }
+
+    /* Services */
+
+    .icons-div {
+        display: flex; flex-direction: column;
+    }
+    #services-btn {
+        margin: 10px 170px;
+    }
+
+    /* Portfolio Page */
+
+    #portfolio-ul {
+        display: flex; justify-content: center; gap: 10px; font-size: 13px;
+    }
+    .logo-section figure {
+        display: flex; flex-direction: column; gap: 10px;
+    }
+    #portfolio-btn {
+        margin: 10px ;
+    }
+
+    /* Process Page */
+
+    #portfolio-icons-div div {
+        margin: 10px;
+    }
+    #portfolio-btn {
+        margin: 10px 170px;
+    }
+
+    /* Reviews Page */
+
+    .reviews-content {
+        display: flex; flex-direction: column;
+    }
+    #reviews-btn {
+        margin: 10px 170px;
+    }
+
+    /* Skills Page */
+
+    #skills-btn {
+        margin: 10px 150px;
+    }
+
+    /* Contacts Page */
+
+    .footer-container {
+        display: flex; flex-direction: column;
+    }
+    #footer-pana {
+        font-size: 39px;
+    }
+    .footer-div2 {
+        display: flex; flex-direction: column; 
+    }
+    #contacts-img {
+        width: 400px;
+    }
+}
+

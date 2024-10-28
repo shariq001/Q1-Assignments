@@ -1,0 +1,27 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+#container {
+    margin: 15px; padding: 10px;
+}
+#piaic {
+    font-family: 'Times New Roman', Times, serif; text-shadow: 0 0 20px rgb(83, 71, 71);
+}
+.para {
+    font-size: 20px;
+}
+ul {
+    margin-left: 20px;
+}
+ul li a {
+    text-decoration: none; color: black;
+}
+.first {
+    font-size: 30px;
+}
+#By {
+    text-align: center;
+}
